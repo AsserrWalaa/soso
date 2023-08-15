@@ -205,10 +205,6 @@ div .card {
   width: 240px;
   height: 232px;
 }
-.card h4,
-p {
-  text-align: center;
-}
 .four {
   background-color: #fcfcf3;
 }
@@ -288,19 +284,52 @@ p {
   }
 }
 
+/* Start section five */
+
 .five {
   background-color: #fbfbf9;
+  text-align: left;
 }
+
+.five .five-card {
+  border-radius: 1rem;
+}
+
+.five .five-card img {
+  width: 98px;
+  position: absolute;
+}
+
 .checked {
   color: black;
 }
 .unchecked {
   color: grey;
 }
-.five p {
-  padding-top: 20px;
-  text-align: left;
+
+.five p:first-child {
+  padding: 20px 0;
 }
+
+.five .left-bottom,
+.five .left-top {
+  position: absolute;
+}
+
+.five .left-top {
+  top: -51px;
+  right: 32px;
+}
+
+.five .left-bottom {
+  bottom: -50px;
+  right: 32px;
+}
+
+.five p:last-child {
+  padding-top: 0;
+}
+
 .sara-jacob {
   background-color: #ededf5;
 }
