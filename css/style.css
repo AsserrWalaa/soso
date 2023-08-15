@@ -1,0 +1,272 @@
+body {
+  background-color: #f7f3da;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.rated {
+  width: 100%;
+  background-color: #ecf494;
+  text-align: center;
+  padding: 15px 0;
+}
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+nav {
+  padding-top: 15px;
+  width: 100%;
+}
+ul.navbar {
+  overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  font-size: 20px;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+}
+.end-nav {
+  display: flex;
+}
+.icons {
+  padding-left: 5%;
+  list-style: none;
+  justify-content: end;
+  justify-content: flex-end;
+  align-items: center;
+}
+.take-quiz {
+  padding: 10px 15px;
+  border-radius: 8px;
+  color: wheat;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.5px;
+  background-color: black;
+}
+.logo {
+  padding-right: 3%;
+}
+.one {
+  max-width: 100%;
+  background-color: #f7f3da;
+  display: flex;
+}
+.unique-blend {
+  min-width: 50%;
+  max-width: 100%;
+  color: black;
+  font-family: Value Serif;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 500;
+  width: 50pc;
+}
+.section-left {
+  margin-top: 5%;
+  z-index: 1;
+}
+.unSplash {
+  height: 100%;
+  width: 45%;
+}
+.bottle {
+  margin-left: 1%;
+  height: 100%;
+  width: 40%;
+}
+.two div p {
+  color: gray;
+  font-size: 15px;
+}
+.two {
+  width: 100%;
+  text-align: center;
+  background-color: #f7f3da;
+}
+.three h2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.three h1 {
+  padding-bottom: 5%;
+  font-family: Value Serif Pro;
+  font-size: 48px;
+}
+.three {
+  background-color: #ededf5;
+  padding-top: 100px;
+  text-align: center;
+}
+
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: transparent;
+  border-color: transparent transparent #f3f3f3;
+  border-bottom: 1px solid !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+  background-color: #ededf5;
+  color: black;
+  border: 1px solid transparent;
+  font-size: 20px;
+  border-bottom: rgb(194, 194, 194) solid 0.5px;
+}
+.tabs {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  font-weight: 100;
+}
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card {
+  flex: 0 0 300px;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+.slider-navigation {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slider-navigation button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+}
+
+.slider-navigation button:hover {
+  background-color: #aaa;
+}
+.card-button {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #ecf494;
+  width: 150px;
+}
+div .card {
+  border-radius: 20px;
+}
+.card img {
+  padding: 30px;
+  width: 240px;
+  height: 232px;
+}
+.card h4,
+p {
+  text-align: center;
+}
+.four {
+  background-color: #fcfcf3;
+}
+.four h1 {
+  text-align: center;
+  padding-bottom: 5%;
+  font-family: Value Serif Pro;
+  font-size: 48px;
+}
+.four h2 {
+  padding-top: 10%;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 4px;
+}
+.five {
+  background-color: #fbfbf9;
+}
+.checked {
+  color: black;
+}
+.unchecked {
+  color: grey;
+}
+.five p {
+  padding-top: 20px;
+  text-align: left;
+}
+.sara-jacob {
+  background-color: #ededf5;
+}
+/* .anna-smith img,
+.lara-zoe img,
+.franklin-jackson img {
+  position: ;
+} */
+
+/* start section 6 */
+.six {
+  border-radius: 10px;
+  height: 90vh;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/765b0a396912163c0b4347095a2da8e1.png);
+}
+.six button {
+  margin-top: 2rem;
+}
+
+/* end section 6 */
