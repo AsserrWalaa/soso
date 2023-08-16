@@ -1,4 +1,5 @@
 body {
+  width: 100%;
   background-color: #f7f2ee;
 }
 * {
@@ -287,6 +288,7 @@ div .card {
 /* Start section five */
 
 .five {
+  margin-bottom: 3rem;
   background-color: #fbfbf9;
   text-align: left;
 }
@@ -341,6 +343,7 @@ div .card {
 
 /* start section 6 */
 .six {
+  padding: 3rem;
   background: #f7f2ee;
   border-radius: 10px;
   height: 90vh;
@@ -469,3 +472,8 @@ footer div div h1 {
   width: 100%;
 }
 /* end footer */
+.five svg {
+  position: absolute;
+  left: -13.09px;
+  bottom: -15.296px;
+}
